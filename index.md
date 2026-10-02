@@ -1,80 +1,68 @@
-# Política de privacidad de HobbyWorkspace
+# Privacy Policy for HobbyWorkspace
 
-HobbyWorkspace es una aplicación para gestionar inventarios de pintura, proyectos, tablero Kanban y referencias de color.
+**Effective Date:** October 2, 2026
 
-## 1. Información que tratamos
+HobbyWorkspace is a local-first mobile application designed to manage miniature paint inventories, track project workflows via a Kanban board, match color references, and organize hobby notes.
 
-La aplicación puede almacenar en el dispositivo local los siguientes datos:
+## 1. Information We Process
 
-- Inventario personal de pinturas
-- Nombre, fabricante, código de barras, color y otros datos asociados a cada pintura
-- Proyectos y etapas de trabajo
-- Tareas y comentarios del usuario
-- Fotografías tomadas o seleccionadas por el usuario para proyectos o referencias
-- Preferencias de uso dentro de la aplicación
+HobbyWorkspace stores all user data locally on your device. This data includes:
 
-Estos datos se almacenan localmente en el dispositivo del usuario y no se envían a un servidor externo salvo que se añada una funcionalidad de sincronización o backend en el futuro.
+- Personal paint inventory and stock levels
+- Paint metadata (name, manufacturer, color values, and barcode data)
+- Project boards, stages, tasks, and notes
+- Photos captured or selected by the user for project tracking or reference
+- In-app user preferences
 
-## 2. Uso de la cámara y de fotos
+**All data is stored exclusively on your local device.** HobbyWorkspace does not collect, transmit, or store your personal data or photos on external servers.
 
-La aplicación puede solicitar acceso a la cámara y a las fotos del dispositivo para estas funciones:
+## 2. Device Permissions (Camera and Photos)
 
-- Escaneo de códigos de barras
-- Captura de imágenes para proyectos o referencias
-- Selección de imágenes ya almacenadas en la galería
+To provide key features, the application may request access to device hardware and media storage:
 
-Estos permisos se usan solo para la funcionalidad prevista en la app, y no para recopilar datos personales fuera de la experiencia del usuario dentro de la aplicación.
+- **Camera (`CAMERA`):** Used solely to scan paint barcodes and capture photos of your ongoing projects directly within the app.
+- **Photos / Media Storage (`READ_MEDIA_IMAGES` / Storage access):** Used solely to allow you to select existing reference images from your gallery for your project cards.
 
-### Texto recomendado para mostrar al usuario
+These permissions are requested strictly on-demand. Captured or selected images remain in your local app storage and are never uploaded, analyzed, or shared with third parties.
 
-“Necesitamos acceso a la cámara para escanear códigos de barras y tomar fotos de tus proyectos. Las imágenes se guardan solo en tu dispositivo y no se comparten con terceros.”
+## 3. Local Data Storage & Data Retention
 
-“Necesitamos acceso a tus fotos para añadir una imagen de proyecto o seleccionar una imagen ya guardada en tu móvil.”
+All inventory entries, project details, and photos are stored locally using Android's isolated app storage environment (`Room/SQLite`).
 
-## 3. Almacenamiento local
+You retain full ownership and control of your data. You can modify, export, or delete any stored item or photo at any time directly through the app UI, or clear all data by clearing the app's cache/data in your Android device settings.
 
-Las fotos, el inventario y los datos del proyecto se almacenan localmente en el dispositivo del usuario.
+## 4. Analytics, Tracking, and Advertising
 
-No se realiza almacenamiento ni transmisión automática de estos datos a terceros, ni se usan para publicidad, seguimiento o perfiles de usuario.
+HobbyWorkspace does **not** use cookies, web beacons, tracking SDKs, or third-party analytics frameworks. 
 
-## 4. Cookies y seguimiento
+There are no advertisements served within the app, and we do not track your activity across other apps or websites.
 
-HobbyWorkspace no utiliza cookies ni seguimiento web en su funcionamiento principal, ya que es una aplicación nativa y local.
+## 5. Third-Party Data Sharing
 
-No se emplean herramientas de analítica web ni de publicidad dentro de la app, salvo que se añadan más servicios en un futuro. Si eso ocurre, esta política se actualizará y se necesitará informar de forma explícita al usuario.
+We do **not** sell, share, or transfer any personal data, usage metrics, or media files to third-party companies, advertising networks, or external cloud services. 
 
-## 5. Compartir datos con terceros
+## 6. Security
 
-Actualmente, no se comparten datos personales ni fotografías con terceros. La aplicación no sube información a servidores ni a redes sociales.
+We follow standard Android security practices to safeguard your local data:
 
-Si en el futuro se incorpora un backend, sincronización en la nube, analítica externa o servicios de terceros, se informará de forma clara antes de activarse y se actualizará esta política.
+- Application data is isolated within Android’s secure app sandbox.
+- Access requests are restricted to the minimum permissions required for core functionality.
+- No sensitive credentials, secrets, or remote access tokens are stored or exposed.
 
-## 6. Seguridad
+## 7. Your Rights & Control
 
-Se aplican buenas prácticas de seguridad para evitar accesos no autorizados a los datos locales del usuario, como por ejemplo:
+As a user, you have complete control over your data:
 
-- almacenamiento local de datos de la aplicación dentro del entorno controlado por Android
-- no almacenamiento de secretos o credenciales en código fuente
-- uso de permisos mínimos necesarios para la funcionalidad
-- no exposición de rutas ni archivos sensibles fuera del flujo previsto
+- You can grant or revoke Camera and Photo permissions at any time via your device settings.
+- You can add, edit, or permanently remove any project, paint entry, or picture within the app.
+- Uninstalling the app permanently removes all locally stored app data from your device.
 
-## 7. Derechos del usuario
+## 8. Changes to This Privacy Policy
 
-El usuario puede:
+We may update our Privacy Policy if we introduce new functionality or legal requirements. Any updates will be posted with a revised "Effective Date" at the top of this document and will be made available in the Google Play Store listing.
 
-- gestionar su inventario y proyectos dentro de la app
-- borrar o modificar contenido local
-- decidir si quiere usar la cámara o la galería
-- eliminar fotos o datos almacenados localmente desde el propio dispositivo
+## 9. Contact Us
 
-## 8. Cambios en esta política
+If you have any questions or feedback regarding this Privacy Policy or local data management in HobbyWorkspace, you can reach out via:
 
-Esta política puede actualizarse si la aplicación incorpora nuevas funciones, nuevas integraciones o requisitos legales. Cualquier cambio relevante se comunicará en la aplicación o en la documentación del proyecto.
-
-## 9. Contacto
-
-Si el usuario tiene preguntas sobre privacidad, almacenamiento local o permisos de la app, puede contactar con el responsable del proyecto a través del repositorio o del canal de contacto indicado en la aplicación.
-
-## 10. Conclusión
-
-HobbyWorkspace es una aplicación local y no requiere cookies ni tratamiento de datos en servidores. Los permisos de cámara y fotos se solicitan solo para funciones necesarias de escaneo y fotografía, y las imágenes se mantienen en el dispositivo del usuario.
+- **Developer / Support Email:** [bvs7apps@gmail.com]
